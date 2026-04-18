@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">992194948893-ppp9n43et1211sp138ust357jls4v7ab.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://rasid-1e3da.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">992194948893</string>
+    <string name="google_api_key" translatable="false">AIzaSyBQQGNEhbVZGgULrHcNgXfW7_TXNvhAnLs</string>
+    <string name="google_app_id" translatable="false">1:992194948893:android:99e5c1d025f1363f15fbf4</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBQQGNEhbVZGgULrHcNgXfW7_TXNvhAnLs</string>
+    <string name="google_storage_bucket" translatable="false">rasid-1e3da.appspot.com</string>
+    <string name="project_id" translatable="false">rasid-1e3da</string>
+</resources>

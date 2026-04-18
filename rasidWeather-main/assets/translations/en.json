@@ -1,0 +1,553 @@
+{
+    "inquiries": {
+        "title": "Inquiries",
+        "message": "Connect with our meteorologists 24/7",
+        "title_whats": "Inquiries",
+        "message_whats": "Talk to meteorologists on WhatsApp",
+
+        "write_inquiry": "Type your inquiry",
+        "button": "Send Inquiry",
+        "status": {
+            "pending": "Pending"
+        }
+    },
+    "language": {
+        "welcome": "Welcome to Rasid Weather",
+        "please_select": "Please select your preferred language",
+        "arabic": "Arabic",
+        "english": "English",
+        "continue": "Continue"
+    },
+    "common": {
+        "no_sign_in": "Login Required",
+        "no_sign_in_message": "You must be logged in to use this feature",
+        "sign_in": "Sign In",
+        "welcome": "Welcome",
+        "add_city": "Add City",
+        "add_city_message": "Add a new city to track its weather",
+        "error": "Error",
+        "success": "Success",
+        "loading": ".....",
+        "retry": "Retry",
+        "cancel": "Cancel",
+        "save": "Save",
+        "delete": "Delete",
+        "edit": "Edit",
+        "search": "Search",
+        "no_results": "No Results",
+        "no_internet": "No Internet Connection",
+        "server_error": "Server Error",
+        "unknown_error": "Unknown Error",
+        "required_field": "This field is required",
+        "invalid_email": "Invalid email address",
+        "invalid_phone": "Invalid phone number",
+        "password_short": "Password is too short",
+        "password_mismatch": "Passwords do not match",
+        "confirm": "Confirm",
+        "back": "Back",
+        "next": "Next",
+        "done": "Done",
+        "skip": "Skip",
+        "more": "More",
+        "yes": "Yes",
+        "no": "No",
+        "newest_articles": "Newest Articles",
+        "vip_badge": "VIP",
+        "empty_state": "No data available",
+        "try_again": "Try Again"
+    },
+    "weather": {
+        "temperature_labels": {
+            "very_cold": "Very cold",
+            "cold": "Cold",
+            "mild": "Mild",
+            "warm": "Warm",
+            "hot": "Hot",
+            "very_hot": "Very hot"
+        },
+        "current": {
+            "feels_like": "Feels Like",
+            "humidity": "Humidity",
+            "pressure": "Pressure",
+            "wind_speed": "Wind Speed",
+            "wind_direction": "Wind Direction",
+            "clouds": "Clouds",
+            "visibility": "Visibility",
+            "uv_index": "UV Index",
+            "sunrise": "Sunrise",
+            "sunset": "Sunset"
+        },
+        "forecast": {
+            "rain_chance": "Rain Chance",
+            "daily_title": "7-Day Weather Forecast",
+            "hourly_title": "Hourly Weather Forecast",
+            "temperature": "Temperature",
+            "wind": "Wind",
+            "precipitation": "Precipitation",
+            "precipitation_chance": "Precipitation Chance",
+            "cloud_cover": "Cloud Cover",
+            "humidity": "Humidity",
+            "pressure": "Pressure"
+        },
+        "charts": {
+            "title": "Charts",
+            "temperature": {
+                "title": "Temperature",
+                "feels_like": "Feels Like",
+                "max": "Max",
+                "min": "Min",
+                "celsius": "°C"
+            },
+            "humidity": {
+                "title": "Humidity",
+                "subtitle": "Moisture graph",
+                "percentage": "{}%"
+            },
+            "pressure": {
+                "title": "Pressure",
+                "subtitle": "The drawing graph",
+                "hpa": "hPa",
+                "lowPressure": "Low ",
+                "highPressure": "High ",
+                "normalPressure": "Normal ",
+                "separator": " / "
+            },
+            "wind": {
+                "title": "Wind",
+                "subtitle": "Wind expectations graph",
+                "speed": "Wind speed",
+                "gust": "Wind Gusts",
+                "direction": "Direction",
+                "kmh": "km/h",
+                "separator": " / "
+            },
+            "rain": {
+                "title": "Rain",
+                "probability": "Probability",
+                "chance": "Chance",
+                "amount": "Amount",
+                "mm": "mm"
+            },
+            "clouds": {
+                "title": "CloudsCover",
+                "subtitle": "The drawing graph",
+                "coverage": "Coverage",
+                "percentage": "{}%"
+            }
+        },
+        "no_data": "No weather data available",
+        "day": "Day",
+        "night": "Night",
+        "inDay": "In Day",
+        "inNight": "In Night",
+        "hi": "High",
+        "low": "Low",
+        "seeMore": "Click to see more →",
+        "last_updated": "Last Updated {}",
+        "weatherForDays": "Weather for {} days",
+        "rain": {
+            "title": "Rain",
+            "subtitle": "Rain Chart",
+            "rate": "The expected rain rate",
+            "precipitationChance": "Precipitation Chance",
+            "precipitationChanceRate": "The expected precipitation chance rate",
+            "details": {
+                "title": "Rain",
+                "separator": " / "
+            }
+        },
+        "temperature": {
+            "details": {
+                "title": "Temperature",
+                "separator": " / "
+            }
+        },
+        "wind": {
+            "title": "Wind",
+            "subtitle": "Wind Speed",
+            "direction": "Direction",
+            "rate": "The expected wind rate",
+            "directions": {
+                "north": "North",
+                "north_west": "North West",
+                "west": "West",
+                "south_west": "South West",
+                "south": "South",
+                "south_east": "South East",
+                "east": "East",
+                "north_east": "North East"
+            },
+            "descriptions": {
+                "light": "Light winds reaching {speed} km/h from the {direction}",
+                "moderate": "Moderate winds occasionally stirring up dust, reaching {speed} km/h from the {direction}",
+                "strong": "Moderate to active winds stirring up dust and sand, reducing horizontal visibility, reaching {speed} km/h from the {direction}",
+                "very_strong": "Strong winds stirring up dust and sand, reducing horizontal visibility, reaching {speed} km/h from the {direction}",
+                "storm": "Storm winds reaching {speed} km/h from the {direction}"
+            }
+        },
+        "dew_point": "Dew Point",
+        "humidity": {
+            "title": "Humidity",
+            "rate": "The expected humidity rate"
+        },
+        "sun": "Sun",
+        "visibility": "Visibility",
+        "clouds": {
+            "title": "Clouds",
+            "rate": "The expected clouds rate"
+        },
+        "pressure": {
+            "title": "Pressure",
+            "rate": "The expected pressure rate"
+        },
+        "appearance_duration": "Appearance Duration",
+        "uv_index": {
+            "title": "UV Index",
+            "no_sun": "No sun now",
+            "risk_levels": {
+                "none": "There is no risk for a natural person.",
+                "low": "There is a slight risk when exposed directly to sunlight.",
+                "medium": "There is a moderate risk when exposed directly to sunlight.",
+                "high": "It is very dangerous to be exposed directly to sunlight.",
+                "very_high": "Extremely dangerous to be exposed directly to sunlight."
+            },
+            "recommendations": {
+                "low": "Wear sunglasses, use sunscreen, wear clothing covering the entire body, and wear a hat. Stay in shaded areas.",
+                "medium": "Wear sunglasses, use sunscreen, wear clothing covering the entire body, and wear a hat. Try to reduce sun exposure from 11:00 AM to 4:00 PM.",
+                "high": "Avoid direct sun exposure as much as possible and make sure to wear body-covering clothing, sunglasses, and a hat.",
+                "very_high": "Take all possible precautions to avoid direct sunlight. Wear body-covering clothing, sunglasses, and a hat. Try not to be exposed to sunlight from 11:00 AM to 4:00 PM."
+            }
+        },
+        "maps": {
+            "view_more": "View more \u2013 Maps | Rasid Weather",
+            "windy": {
+                "title": "Weather, Wind Radar from Windy",
+                "label": "More →"
+            },
+            "saudi": {
+                "title": "Saudi rain radar",
+                "label": "More →"
+            },
+            "gulf": {
+                "title": "Weather radar from the Gulf ",
+                "label": "More →"
+            },
+            "rainviewer": {
+                "title": "Rain Radar from RainViewer",
+                "label": "More →"
+            },
+            "ncm": {
+                "title": "Rain Radar for UAE and Oman",
+                "label": "More →"
+            }
+        }
+    },
+    "auth": {
+        "login": {
+            "welcome": "Welcome to Rasid Weather!",
+            "login": "Login",
+            "title": "Log into your account",
+            "email": "Email",
+            "email_required": "Please enter your email",
+            "invalid_email": "Invalid email address",
+            "password": "Password",
+            "password_required": "Please enter your password",
+            "password_short": "Password is too short",
+            "google_signin": "Sign in with Google",
+            "apple_signin": "Sign in with Apple",
+            "success": "Login successful",
+            "or": "OR",
+            "dont_have_account": "Don't have an account?",
+            "forget_password": "Forgot Password?",
+            "loading": "Logging in...",
+            "google_loading": "Logging in with Google...",
+            "apple_loading": "Logging in with Apple...",
+            "google_error": "Google sign-in failed",
+            "apple_error": "Apple sign-in failed"
+        },
+        "signup": {
+            "signup": "Sign Up",
+            "title": "Follow the simple steps",
+            "name": "Name",
+            "name_required": "Name cannot be empty",
+            "name_length": "Name must be more than 5 characters",
+            "email": "Email",
+            "email_required": "Please enter your email",
+            "password": "Password",
+            "password_required": "Please enter password",
+            "password_short": "Password is too short",
+            "success": "Account created successfully",
+            "already_have_account": "Already have an account?",
+            "loading": "Creating account..."
+        },
+        "reset_password": {
+            "title": "Reset Password",
+            "subtitle": "Set a new password",
+            "new_password": "New Password",
+            "confirm_password": "Confirm New Password",
+            "submit": "Submit",
+            "loading": "Resetting password...",
+            "success": "Password reset successfully",
+            "error": "An error occurred while resetting your password"
+        },
+        "forgot_password": {
+            "title": "Forgot Password?",
+            "subtitle": "We will send a one-time verification code to your email to reset your password",
+            "email": "Email",
+            "email_required": "Please enter your email",
+            "submit": "Submit",
+            "verify_otp": "Verify OTP",
+            "didnt_receive": "Didn't receive the code?",
+            "resend": "Resend",
+            "resend_after": "Resend after {} seconds",
+            "sending_code": "Sending password reset code...",
+            "code_sent": "Password reset code sent",
+            "sending_error": "Error sending password reset code",
+            "verifying_code": "Verifying code...",
+            "code_verified": "Code verified successfully",
+            "invalid_code": "Invalid code",
+            "otp": "Verification code",
+            "otp_required": "Please enter verification code"
+        },
+        "logout": {
+            "loading": "Logging out...",
+            "success": "Logged out successfully",
+            "error": "Failed to logout"
+        },
+        "account": {
+            "deleting": "Deleting account...",
+            "delete_success": "Account deleted successfully"
+        },
+        "errors": {
+            "session_expired": "Session expired. Please login again"
+        }
+    },
+    "subscription": {
+        "title": "Subscription",
+        "choose_plan": "Choose Plan",
+        "more_info": "More Info",
+        "premium": "Premium",
+        "active": "Active",
+        "expired": "Expired",
+        "expiration_date": "Expiration Date",
+        "premium_description": "Get weather details \nfor 10 days \nand many more features",
+        "subscribe": "Subscribe",
+        "subscribe_now": "Subscribe Now",
+        "select_plan": "Please select a subscription plan",
+        "discount": "{}% OFF",
+        "price": "{0}/{1}",
+        "terms": "Terms & Conditions",
+        "privacy": "Privacy Policy",
+        "not_available": "Subscription is not available",
+        "ios_terms": "Payment will be charged to your iTunes Account at confirmation of purchase. Subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current period. Account will be charged for renewal within 24-hours prior to the end of the current period, and identify the cost of the renewal. Subscriptions may be managed by the user and auto-renewal may be turned off by going to the user's Account Settings after purchase. Any unused portion of a free trial period, if offered, will be forfeited when the user purchases a subscription to that publication, where applicable.",
+        "thank_you": "Thank You",
+        "subscription_successful": "Subscription Successful",
+        "enjoy_premium": "Enjoy Premium Features",
+        "back_to_home": "Back to Home",
+        "redirect_to_home": "Redirect to Home",
+        "payment_success": "Payment Successful",
+        "intro": {
+            "premium": {
+                "title": "Switch to Premium Account",
+                "forecast_title": "Weather Forecast for More Than 7 Days",
+                "forecast_description": "Get daily and hourly forecasts up to 10 consecutive days updated around the clock.",
+                "backgrounds_title": "Interactive Weather Backgrounds",
+                "backgrounds_subtitle": "Patterns That Simulate Weather in Your Area",
+                "backgrounds_description": "Realistic 3D interactive patterns that simulate the weather in your area",
+                "icons_title": "Animated Weather Icons",
+                "icons_whats": "Contact WhatsApp",
+                "icons_subtitle_whats": "Chat on WhatsApp with meteorologists and forecasters",
+                "icons_description_whats": "Chat 24/7 with meteorologists directly, answer all questions,share photos, videos of rain and weather.",
+                "icons_subtitle": "Weather Icons and Interactive App Elements",
+                "icons_description": "Enjoy distinctive animated and interactive weather icons and app elements",
+                "newsletter_title": "Monthly Newsletters",
+                "newsletter_subtitle": "Get Monthly and Seasonal Forecasts",
+                "newsletter_description": "Weather news and atmospheric analysis for 30 days",
+                "ads_title": "Remove Ads",
+                "ads_subtitle": "Remove Ads Permanently",
+                "ads_description": "Enjoy browsing the app without ads",
+                "consultation_title": "Consultations",
+                "consultation_subtitle": "Weather Consultations",
+                "consultation_description": "Talk directly with the meteorologist to ask about the weather to avoid weather risks and organize daily activities."
+            }
+        }
+    },
+    "articles": {
+        "title": "Articles",
+        "premium_article": "Premium Article",
+        "author": "Author",
+        "youMightAlsoLike": "You Might Also Like",
+        "search": {
+            "placeholder": "Search news"
+        },
+        "bookmarks": {
+            "title": "Bookmarks"
+        },
+        "comments": {
+            "title": "Comments",
+            "load_more_error": "Failed to load more comments",
+            "loading_more": "Loading more comments",
+            "no_more": "No more comments",
+            "delete": "Delete",
+            "edit": "Edit"
+        },
+        "featured_article": "Featured Article",
+        "subscribe_to_read": "Subscribe to read this article",
+        "categories": {
+            "title": "Categories",
+            "all": "All",
+            "weather": "Weather",
+            "climate": "Climate",
+            "environment": "Environment",
+            "technology": "Technology"
+        }
+    },
+    "cities": {
+        "title": "Cities",
+        "subtitle": "Add a new city to track \n its weather",
+        "search_placeholder": "Search for your city",
+        "search_title": "Search for your city",
+        "delete_city_title": "Delete City!",
+        "delete_city_message": "Do you want to delete {0}?",
+        "no_cities": "You don't have any cities!",
+        "exists": "City already exists",
+        "no_results_found": "No results found"
+    },
+    "notifications": {
+        "title": "Notifications",
+        "auto_delete_message": "Older notifications are automatically deleted",
+        "notification details": "Notification Details",
+        "custom notifications": "Custom Notifications",
+        "news notifications": "News Notifications",
+        "no notification": "No notifications found"
+    },
+    "profile": {
+        "title": "Profile",
+        "edit_profile": "Edit file",
+        "name": "Name",
+        "email": "Email",
+        "phone": "Phone",
+        "save": "Save",
+        "about_us": "About Us",
+        "contact_us": "Contact Us",
+        "privacy_policy": "Privacy Policy",
+        "terms_of_use": "Terms of Use",
+        "changeLanguage": "Change Language",
+        "general_settings": "General Settings",
+        "delete_account": {
+            "title": "Delete Account",
+            "description": "Are you sure you want to delete your account? This action cannot be undone.",
+            "confirm": "Yes, delete the account",
+            "cancel": "Cancel"
+        },
+        "logout": {
+            "confirm_title": "Logout",
+            "confirm_message": "Are you sure you want to log out?"
+        },
+        "rate_app": "Rate App",
+        "share_app": "Share App",
+        "login": "Login"
+    },
+    "splash": {
+        "slogan": "Your Trusted Sky Guide!"
+    },
+    "intro": {
+        "skip": "Skip",
+        "next": " Next",
+        "done": "Done",
+        "page1": {
+            "title": "Accurate Information",
+            "description": "Get accurate weather information for your area"
+        },
+        "page2": {
+            "title": "Instant Alerts",
+            "description": "Receive instant alerts about weather changes"
+        },
+        "page3": {
+            "title": "Future Forecasts",
+            "description": "View weather forecasts for the next 7 days"
+        }
+    },
+    "dashboard": {
+        "weather": "Weather",
+        "charts": "Charts",
+        "map": "Map",
+        "articles": "Articles",
+        "profile": "Profile",
+        "press_again_to_exit": "Press again to exit"
+    },
+    "date": {
+        "year": "year",
+        "month": "month",
+        "week": "week",
+        "day": "day",
+        "hour": "hour",
+        "minute": "minute",
+        "second": "second",
+        "xYears": "{} / year",
+        "xMonths": "{} month",
+        "xWeeks": "{} week",
+        "xDays": "{} day",
+        "xHours": "{} hour",
+        "xMinutes": "{} minute",
+        "xSeconds": "{} second",
+        "weekdays_full": {
+            "1": "Monday",
+            "2": "Tuesday",
+            "3": "Wednesday",
+            "4": "Thursday",
+            "5": "Friday",
+            "6": "Saturday",
+            "7": "Sunday"
+        },
+        "weekdays_short": {
+            "1": "Mon",
+            "2": "Tue",
+            "3": "Wed",
+            "4": "Thu",
+            "5": "Fri",
+            "6": "Sat",
+            "7": "Sun"
+        },
+        "months_full": {
+            "1": "January",
+            "2": "February",
+            "3": "March",
+            "4": "April",
+            "5": "May",
+            "6": "June",
+            "7": "July",
+            "8": "August",
+            "9": "September",
+            "10": "October",
+            "11": "November",
+            "12": "December"
+        },
+        "months_short": {
+            "1": "Jan",
+            "2": "Feb",
+            "3": "Mar",
+            "4": "Apr",
+            "5": "May",
+            "6": "Jun",
+            "7": "Jul",
+            "8": "Aug",
+            "9": "Sep",
+            "10": "Oct",
+            "11": "Nov",
+            "12": "Dec"
+        },
+        "timeAgo": {
+            "now": "just now",
+            "xMinutes": "{} minutes ago",
+            "xHours": "{} hours ago",
+            "yesterdayAt": "Yesterday at {}",
+            "xDaysAtTime": "{} days ago at {}"
+        },
+        "format": {
+            "month_day": "{} {}"
+        }
+
+
+    }
+}

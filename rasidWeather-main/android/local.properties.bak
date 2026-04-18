@@ -1,0 +1,5 @@
+sdk.dir=/Users/mohamedseleam/Android/Sdk
+flutter.sdk=/Users/mohamedseleam/development/flutter
+flutter.buildMode=release
+flutter.versionName=8.1.8
+flutter.versionCode=89

@@ -1,0 +1,230 @@
+{
+  "appPolicies" : {
+    "eula" : "",
+    "policies" : [
+      {
+        "locale" : "en_US",
+        "policyText" : "",
+        "policyURL" : ""
+      }
+    ]
+  },
+  "identifier" : "41640714",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "6751072911",
+      "localizations" : [
+        {
+          "description" : "اشتراك اسبوعي واسع لتجبه",
+          "displayName" : "اشتراك اسبوعي",
+          "locale" : "ar"
+        }
+      ],
+      "productID" : "com.rassid.removeads",
+      "referenceName" : "Remove Ads",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_applicationInternalID" : "1522203608",
+    "_developerTeamID" : "2SKK7M7J7C",
+    "_failTransactionsEnabled" : false,
+    "_lastSynchronizedDate" : 782396207.80627501,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "21470993",
+      "localizations" : [
+
+      ],
+      "name" : "anuualy",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "17.49",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "6615062140",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Instant support & full access all year round.",
+              "displayName" : "Gold Package",
+              "locale" : "en_US"
+            },
+            {
+              "description" : "تواصل فوري ودعم كامل طوال العام ",
+              "displayName" : "الباقة الذهبية",
+              "locale" : "ar"
+            }
+          ],
+          "productID" : "com.rassid.ios.annually.goold",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Annually Gold Subscription",
+          "subscriptionGroupID" : "21470993",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "5.39",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "6615062364",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Unlimited weather access with no ads.",
+              "displayName" : "Premium Package",
+              "locale" : "en_US"
+            },
+            {
+              "description" : " الاطلاع  على الطقس بلا حدود وبدون اعلانات",
+              "displayName" : "الباقة المميزة ",
+              "locale" : "ar"
+            }
+          ],
+          "productID" : "com.rassid.ios.annually.special",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Annually Special Subscription",
+          "subscriptionGroupID" : "21470993",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "0.99",
+          "familyShareable" : false,
+          "groupNumber" : 2,
+          "internalID" : "6751052171",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "اشتراك اسبوعي واسع لتجبه",
+              "displayName" : "اشتراك اسبوعي",
+              "locale" : "ar"
+            }
+          ],
+          "productID" : "com.rassid.weekly",
+          "recurringSubscriptionPeriod" : "P1W",
+          "referenceName" : "weekly",
+          "subscriptionGroupID" : "21470993",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "19.99",
+          "familyShareable" : false,
+          "groupNumber" : 3,
+          "internalID" : "6754165936",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "اشتراك الواتساب يتيح لك التواصل المباشر مع المختصين ",
+              "displayName" : "اشتراك الواتساب",
+              "locale" : "ar"
+            },
+            {
+              "description" : "what's up allows you to communicate with specialists",
+              "displayName" : "ًWhats up ",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.rassid.ios.annually.whats",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "what's_up",
+          "subscriptionGroupID" : "21470993",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}

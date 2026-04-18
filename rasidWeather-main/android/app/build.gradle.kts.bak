@@ -1,0 +1,95 @@
+import java.util.Properties
+import java.io.FileInputStream
+
+plugins {
+    id("com.android.application")
+    id("kotlin-android")
+    // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
+    id("dev.flutter.flutter-gradle-plugin")
+    id("com.google.gms.google-services")
+}
+
+// Load key.properties file if it exists
+val keystorePropertiesFile = rootProject.file("key.properties")
+val useLocalProperties = keystorePropertiesFile.exists()
+
+// Load properties from key.properties file
+val keystoreProperties = Properties().apply {
+    if (useLocalProperties) {
+        load(FileInputStream(keystorePropertiesFile))
+    }
+}
+
+android {
+    namespace = "com.rassid.rassid"
+    compileSdk = flutter.compileSdkVersion
+    // NDK version is completely removed to avoid build issues
+
+    compileOptions {
+        // Enable core library desugaring for using Java 8+ APIs on older Android versions
+        isCoreLibraryDesugaringEnabled = true
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+    
+    // Skip native build completely
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_17.toString()
+    }
+
+    signingConfigs {
+        create("release") {
+            if (useLocalProperties) {
+                keyAlias = keystoreProperties.getProperty("keyAlias")
+                keyPassword = keystoreProperties.getProperty("keyPassword")
+                storeFile = file(keystoreProperties.getProperty("storeFile"))
+                storePassword = keystoreProperties.getProperty("storePassword")
+            } else {
+                // Fallback to environment variables if key.properties doesn't exist
+                keyAlias = System.getenv("KEY_ALIAS") ?: ""
+                keyPassword = System.getenv("KEY_PASSWORD") ?: ""
+                storeFile = System.getenv("STORE_FILE")?.let { file(it) }
+                storePassword = System.getenv("STORE_PASSWORD") ?: ""
+            }
+        }
+    }
+
+    defaultConfig {
+        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+        applicationId = "com.rassid.rassid"
+        // You can update the following values to match your application needs.
+        // For more information, see: https://flutter.dev/to/review-gradle-config.
+        minSdk = flutter.minSdkVersion
+        targetSdk = flutter.targetSdkVersion
+        versionCode = flutter.versionCode
+        versionName = flutter.versionName
+        
+        // Removed NDK configuration to avoid build issues
+    }
+
+    buildTypes {
+        release {
+            // Use the release signing config for release builds
+            signingConfig = if (useLocalProperties || System.getenv("STORE_FILE") != null) {
+                signingConfigs.getByName("release")
+            } else {
+                // Fallback to debug signing if no release signing config is available
+                signingConfigs.getByName("debug")
+            }
+        }
+    }
+}
+
+dependencies {
+    // Add core library desugaring for Java 8+ APIs on older Android versions
+    coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.1.4")
+    
+    // Use app-update instead of core to avoid duplicates
+    implementation("com.google.android.play:app-update:2.1.0")
+    implementation("com.google.android.play:app-update-ktx:2.1.0")
+}
+
+flutter {
+    source = "../.."
+}

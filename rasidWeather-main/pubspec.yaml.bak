@@ -1,0 +1,192 @@
+name: rasid_weather
+description: A weather application built with Flutter
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 8.1.8+89
+
+environment:
+  sdk: ">=3.8.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # Icons and Graphics
+  cupertino_icons: ^1.0.8
+  line_icons: ^2.0.3
+  flutter_svg: ^2.0.17
+  fluttericon: ^2.0.0
+  flutter_feather_icons: ^2.0.0
+  lottie: ^3.3.1
+
+  # Networking and Data Exchange
+  http: ^1.3.0
+  dio: ^5.8.0+1
+  crypto: ^3.0.6
+  async: ^2.11.0
+  #  connectivity: ^3.0.6
+
+  # Maps and Geolocation
+  geolocator: ^13.0.3
+  geocoding: ^3.0.0
+  flutter_map: ^8.1.1
+  latlong2: ^0.9.1
+  #  google_maps_flutter: ^2.10.0
+
+  # Localization and Translation
+  intl: ^0.20.2
+  easy_localization: ^3.0.7
+
+  # Local Data Storage
+  shared_preferences: ^2.5.3
+  sqflite: ^2.4.2
+  #  path: ^1.9.1
+  path_provider: ^2.1.5
+
+  # State Management and Dependencies
+  provider: ^6.1.4
+  get_it: ^8.0.3
+  bloc: ^9.0.0
+  flutter_bloc: ^9.1.0
+  hydrated_bloc: ^10.0.0
+  #  hydrated_storage: ^4.0.0
+
+  # Design and Fonts
+  google_fonts: ^6.2.1
+  flutter_staggered_grid_view: ^0.7.0
+  flutter_screenutil: ^5.9.3
+
+  # Notifications
+  flutter_local_notifications: ^19.0.0
+  firebase_messaging: ^15.2.4
+
+  # Firebase Services
+  firebase_core: ^3.12.1
+  firebase_analytics: ^11.4.4
+  firebase_crashlytics: ^4.3.4
+
+  # Device Assistance and Settings
+  app_settings: ^5.2.0
+  permission_handler: ^11.4.0
+  device_info_plus: ^11.3.3
+
+  # Multimedia
+  youtube_player_flutter: ^9.1.1
+  image_picker: ^1.1.2
+  cached_video_player_plus: ^3.0.3
+  open_file: ^3.5.10
+
+  # Navigation and Routing
+  url_launcher: 6.3.1
+  flutter_custom_tabs: ^2.2.1
+  go_router: ^14.8.1
+  flutter_inappwebview: ^6.1.5
+
+  # Charts and Graphs
+  line_chart: ^1.1.11
+  #  syncfusion_flutter_sliders:
+  #    git:
+  #      url: https://github.com/Luvti/flutter-widgets
+  #      path: packages/syncfusion_flutter_sliders
+  #      ref: 15e3c4a95e3cf2e2393755bf5aa11c0206ed6dea #flutter/3.24
+  syncfusion_flutter_sliders: ^29.1.33
+  #  syncfusion_flutter_gauges:
+  #    git:
+  #      url: https://github.com/Luvti/flutter-widgets
+  #      path: packages/syncfusion_flutter_gauges
+  #      ref: 15e3c4a95e3cf2e2393755bf5aa11c0206ed6dea #flutter/3.24
+  syncfusion_flutter_gauges: ^29.1.33
+  #  syncfusion_flutter_charts:
+  #    git:
+  #      url: https://github.com/Luvti/flutter-widgets
+  #      path: packages/syncfusion_flutter_charts
+  #      ref: 15e3c4a95e3cf2e2393755bf5aa11c0206ed6dea #flutter/3.24
+  syncfusion_flutter_charts: ^29.1.33
+  fl_chart: ^0.70.2
+
+  # In-App Updates and Purchases
+  in_app_update: ^4.2.3
+  in_app_purchase: ^3.2.1
+  #  launch_app_store: ^1.1.2
+  in_app_review: ^2.0.10
+
+  # Social Integration and Sharing
+  google_sign_in: ^6.3.0
+  sign_in_with_apple: ^6.1.4
+  share_plus: ^10.1.4
+  google_mobile_ads: ^5.3.1
+  #  facebook_audience_network: ^1.0.1
+  #  easy_audience_network: ^0.0.7
+  #  gma_mediation_meta: ^1.1.0
+
+  # Ready-made UI Components
+  carousel_slider: ^5.0.0
+  flutter_chat_ui: ^1.6.15
+  flutter_chat_bubble: ^2.0.2
+  introduction_screen: ^3.1.17
+  pull_to_refresh: ^2.0.0
+  blurrycontainer: ^2.1.0
+  flutter_widget_from_html_core: ^0.16.0
+  shimmer: ^3.0.0
+
+  # Helper Libraries
+  #  country_codes: ^3.1.0+2
+  html_unescape: ^2.0.0
+  #  fk_user_agent: ^2.1.0
+  get_user_agent: ^1.1.0
+  cached_network_image: ^3.4.1
+
+  # Custom Project Libraries
+  gallery:
+    git:
+      url: https://github.com/mohamedMesalm/gallery.git
+  pin_code_fields: ^8.0.1
+  redacted: ^1.0.13
+  flutter_launcher_icons: ^0.14.3
+  easy_localization_loader: ^2.0.2
+  font_awesome_flutter: ^10.8.0
+  nested: ^1.0.0
+  flutter_chat_types: ^3.6.2
+  leak_tracker: ^10.0.8
+  equatable: ^2.0.7
+
+#dependency_overrides:
+#  web: ^1.1.1
+#  xml: ^6.5.0
+#  flutter_inappwebview_android:
+#    git:
+#      url: https://github.com/holzgeist/flutter_inappwebview
+#      path: flutter_inappwebview_android
+#      ref: d89b1d32638b49dfc58c4b7c84153be0c269d057
+#  flutter_inappwebview_ios:
+#    git:
+#      url: https://github.com/IncM/flutter_inappwebview
+#      path: flutter_inappwebview_ios
+#      ref: cbc214c7b2cf5fd7996ff2e9e25d203946b74bc3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/flags/
+    #    - assets/lottie/
+    - assets/intro/
+    - assets/svg/
+    - assets/translations/
+
+  fonts:
+    - family: DINNextLTArabic
+      fonts:
+        - asset: assets/fonts/DINNextLTArabic-Light.ttf
+        - asset: assets/fonts/DINNextLTArabic-Regular.ttf
+        - asset: assets/fonts/DINNextLTArabic-Bold.ttf
+          weight: 700

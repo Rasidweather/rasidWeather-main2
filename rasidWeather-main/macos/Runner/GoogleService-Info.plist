@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>992194948893-d1rqrd8j0k1lpchltu933toh6is4j59b.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.992194948893-d1rqrd8j0k1lpchltu933toh6is4j59b</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>992194948893-1q94mfn6vtn6bmm0l5n9dea6k4b9cjc3.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDLbn43-uzbcSOOgyFK1zyt2-ir3xhiFAQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>992194948893</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.mbarkIptv</string>
+	<key>PROJECT_ID</key>
+	<string>rasid-1e3da</string>
+	<key>STORAGE_BUCKET</key>
+	<string>rasid-1e3da.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:992194948893:ios:4b32f859bf99410e15fbf4</string>
+</dict>
+</plist>

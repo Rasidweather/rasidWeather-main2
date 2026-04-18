@@ -1,0 +1,194 @@
+{
+  "project_info": {
+    "project_number": "992194948893",
+    "project_id": "rasid-1e3da",
+    "storage_bucket": "rasid-1e3da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:992194948893:android:41262d865e2b400b15fbf4",
+        "android_client_info": {
+          "package_name": "admin.rasid.weather"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "992194948893-ppp9n43et1211sp138ust357jls4v7ab.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgtv4VcKHkgEk_hipWzypvvQrm7pN_JcU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "115173367392960382898",
+              "client_type": 3
+            },
+            {
+              "client_id": "992194948893-1theej3nbjgtl9225e3ei5lfqlaevf2g.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.rasid.mac.admin"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:992194948893:android:12bc9e7b528a70e315fbf4",
+        "android_client_info": {
+          "package_name": "com.rasid.admin_test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "992194948893-ppp9n43et1211sp138ust357jls4v7ab.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgtv4VcKHkgEk_hipWzypvvQrm7pN_JcU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "115173367392960382898",
+              "client_type": 3
+            },
+            {
+              "client_id": "992194948893-1theej3nbjgtl9225e3ei5lfqlaevf2g.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.rasid.mac.admin"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:992194948893:android:4d5c0ac0222e0c6e15fbf4",
+        "android_client_info": {
+          "package_name": "com.rasid.weather"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "992194948893-ppp9n43et1211sp138ust357jls4v7ab.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgtv4VcKHkgEk_hipWzypvvQrm7pN_JcU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "115173367392960382898",
+              "client_type": 3
+            },
+            {
+              "client_id": "992194948893-1theej3nbjgtl9225e3ei5lfqlaevf2g.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.rasid.mac.admin"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:992194948893:android:99e5c1d025f1363f15fbf4",
+        "android_client_info": {
+          "package_name": "com.rassid.rassid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "992194948893-1q94mfn6vtn6bmm0l5n9dea6k4b9cjc3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rassid.rassid",
+            "certificate_hash": "c91e59dea78f8fbea1de5d24beeb8f9a3972d4fe"
+          }
+        },
+        {
+          "client_id": "992194948893-hbp4v8qq250dv10a2c2a2en53f6gpek7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rassid.rassid",
+            "certificate_hash": "119cef5ceef4780c959d401f3c1de71447626ab6"
+          }
+        },
+        {
+          "client_id": "992194948893-hls7ltgjdt4d85ckikkbalsav8i7n1sq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rassid.rassid",
+            "certificate_hash": "615322ee471e4a93f71d568a76f5d8c23f8a10cc"
+          }
+        },
+        {
+          "client_id": "992194948893-iue5u6qo74p9e524ntg5v91nbs9u95o5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rassid.rassid",
+            "certificate_hash": "d730273f55156c554108a98e40f36a9edec84639"
+          }
+        },
+        {
+          "client_id": "992194948893-nhfcl417adfh3f94o7nr9vm6d92k4nlm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rassid.rassid",
+            "certificate_hash": "8cc361834b25fe93b8024fc26f4698470ff762ef"
+          }
+        },
+        {
+          "client_id": "992194948893-ppp9n43et1211sp138ust357jls4v7ab.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgtv4VcKHkgEk_hipWzypvvQrm7pN_JcU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "115173367392960382898",
+              "client_type": 3
+            },
+            {
+              "client_id": "992194948893-1theej3nbjgtl9225e3ei5lfqlaevf2g.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.rasid.mac.admin"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
